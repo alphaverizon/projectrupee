@@ -1,0 +1,5 @@
+/node_modules
+/bower_components
+/lib/gateway/transactions.db
+/lib/registration/registration.db
+/lib/contract/contract.db

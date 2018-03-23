@@ -1,0 +1,29 @@
+{
+  "name": "node-rupiee",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "adler-32": "^1.0.0",
+    "body-parser": "^1.17.2",
+    "box-node-sdk": "^1.6.0",
+    "cookie-parser": "^1.4.3",
+    "debug": "~2.6.0",
+    "exceljs": "^0.4.13",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "jade": "^1.11.0",
+    "morgan": "^1.8.2",
+    "nedb": "^1.8.0",
+    "node-forge": "^0.7.1",
+    "request": "^2.81.0",
+    "serve-favicon": "~2.3.2",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3",
+    "superagent": "^3.5.2",
+    "winston": "^2.3.1",
+    "xml2js": "^0.4.17"
+  }
+}

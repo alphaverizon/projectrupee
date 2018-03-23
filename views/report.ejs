@@ -1,0 +1,39 @@
+<html>
+<head>
+	<script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="/public/css/report.css">
+</head>
+<body> 
+	<div class="centerer">
+		<a class="btn-5" href="#">Get Report</a>
+	</div>
+</body>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.btn-5').click(function() {
+			$('.btn-5').addClass('busy');
+			$('.btn-5').text('Processing...');
+			$.post('/contract/getMonthlyReport', {}, function(result) {
+				var close = $('<button/>', {class:'close', type: 'button', text:'×', click:function () {
+					$(this).parent().hide();
+				}})
+				if(result.status && result.status == 'OK') {
+					var sDiv = $('<div/>', {class:'alert alert-success alert-normal-success', text:'Uploaded Successfully'});
+					sDiv.append(close);
+					$('body').append(sDiv);
+				} else {
+					var eDiv = $('<div/>', {class:'alert alert-danger alert-normal-danger', text:'Error!'});
+					eDiv.append(close);
+					$('body').append(eDiv);
+				}
+				$('.btn-5').removeClass('busy');
+				$('.btn-5').text('Get Report');
+				console.log(result);
+			});
+		});
+	})
+</script>
+</html>

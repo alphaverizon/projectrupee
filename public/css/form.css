@@ -1,0 +1,9 @@
+#success_message{ display: none;}
+
+h4 {
+	margin-top: 50px;
+}
+
+th, td {
+	text-align: center;
+}

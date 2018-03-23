@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:300);
+html {
+  padding-top: 50px;
+  font-family: 'Open Sans', Helvetica, arial, sans-serif;
+  text-align: center;
+}
+html *,
+html *:before,
+html *:after {
+  box-sizing: border-box;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+html i, html em,
+html b, html strong,
+html span {
+  -webkit-transition: none;
+  transition: none;
+}
+
+*:before,
+*:after {
+  z-index: -1;
+}
+
+h1,
+h4 {
+  font-family: 'Raleway', 'Open Sans', sans-serif;
+  margin: 0;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  line-height: 80px;
+  color: black;
+}
+
+.centerer {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 600px) {
+  .wrap {
+    width: 50%;
+    float: left;
+  }
+}
+[class^="btn-"] {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 80px;
+  max-width: 250px;
+  margin: 1rem auto;
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+}
+
+.btn-5 {
+  color: #bd5c8d;
+}
+.btn-5:after {
+  content: '';
+  width: 0;
+  height: 0;
+  -webkit-transform: rotate(360deg);
+  border-style: solid;
+  border-width: 0 0 0 0;
+  border-color: transparent #6a2649 transparent transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.btn-5:before {
+  content: '';
+  width: 0;
+  height: 0;
+  -webkit-transform: rotate(360deg);
+  border-style: solid;
+  border-width: 0 0 0 0;
+  border-color: transparent transparent transparent #372503;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.btn-5:before, .btn-5:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 0 solid;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.btn-5:before {
+  bottom: 0;
+  left: 0;
+  border-color: transparent transparent transparent #6a2649;
+}
+.btn-5:after {
+  top: 0;
+  right: 0;
+  border-color: transparent #6a2649 transparent transparent;
+}
+.btn-5:hover {
+  color: #d6cfc1;
+}
+.btn-5:hover:before, .btn-5:hover:after {
+  border-width: 80px 262.5px;
+}
+.btn-5.busy {
+  color: #d6cfc1;
+}
+.btn-5.busy:before, .btn-5.busy:after {
+  border-width: 80px 262.5px;
+}

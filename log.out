@@ -1,0 +1,333 @@
+Sat, 06 Jan 2018 04:16:05 GMT express:router:route new '/'
+Sat, 06 Jan 2018 04:16:05 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:05 GMT express:router:route get '/'
+Sat, 06 Jan 2018 04:16:05 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:05 GMT express:router:route new '/erp'
+Sat, 06 Jan 2018 04:16:05 GMT express:router:layer new '/erp'
+Sat, 06 Jan 2018 04:16:05 GMT express:router:route get '/erp'
+Sat, 06 Jan 2018 04:16:05 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:05 GMT express:router:route new '/erp'
+Sat, 06 Jan 2018 04:16:05 GMT express:router:layer new '/erp'
+Sat, 06 Jan 2018 04:16:05 GMT express:router:route post '/erp'
+Sat, 06 Jan 2018 04:16:05 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:route new '/checkInGuest'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:layer new '/checkInGuest'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:route post '/checkInGuest'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:route new '/checkOutGuest'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:layer new '/checkOutGuest'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:route post '/checkOutGuest'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:route new '/notifyCheckout'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:layer new '/notifyCheckout'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:route post '/notifyCheckout'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:route new '/initPayment'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:layer new '/initPayment'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:route post '/initPayment'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:route new '/notifyPayReceipt'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:layer new '/notifyPayReceipt'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:route post '/notifyPayReceipt'
+Sat, 06 Jan 2018 04:16:06 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route new '/login'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/login'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route get '/login'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route new '/contractor'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/contractor'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route get '/contractor'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route new '/addEntry'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/addEntry'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route post '/addEntry'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route new '/updateCompliance'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/updateCompliance'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route post '/updateCompliance'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route new '/login'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/login'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route post '/login'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route new '/logout'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/logout'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route get '/logout'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route new '/getMonthlyReport'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/getMonthlyReport'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route post '/getMonthlyReport'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route new '/report'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/report'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:route get '/report'
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:application set "x-powered-by" to true
+Sat, 06 Jan 2018 04:16:08 GMT express:application set "etag" to 'weak'
+Sat, 06 Jan 2018 04:16:08 GMT express:application set "etag fn" to [Function: wetag]
+Sat, 06 Jan 2018 04:16:08 GMT express:application set "env" to 'development'
+Sat, 06 Jan 2018 04:16:08 GMT express:application set "query parser" to 'extended'
+Sat, 06 Jan 2018 04:16:08 GMT express:application set "query parser fn" to [Function: parseExtendedQueryString]
+Sat, 06 Jan 2018 04:16:08 GMT express:application set "subdomain offset" to 2
+Sat, 06 Jan 2018 04:16:08 GMT express:application set "trust proxy" to false
+Sat, 06 Jan 2018 04:16:08 GMT express:application set "trust proxy fn" to [Function: trustNone]
+Sat, 06 Jan 2018 04:16:08 GMT express:application booting in development mode
+Sat, 06 Jan 2018 04:16:08 GMT express:application set "view" to [Function: View]
+Sat, 06 Jan 2018 04:16:08 GMT express:application set "views" to '/home/mukundan/node_rupiee/views'
+Sat, 06 Jan 2018 04:16:08 GMT express:application set "jsonp callback name" to 'callback'
+Sat, 06 Jan 2018 04:16:08 GMT express:application set "views" to '/home/mukundan/node_rupiee/views'
+Sat, 06 Jan 2018 04:16:08 GMT express:application set "view engine" to 'ejs'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/' query
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/' expressInit
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/' logger
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/' jsonParser
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/' urlencodedParser
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/' cookieParser
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/' session
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/public' serveStatic
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/public'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/bower_components' serveStatic
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/bower_components'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/' serveStatic
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/' promisify
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/rupiee' router
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/rupiee'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/registration' router
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/registration'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/contract' router
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/contract'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/' <anonymous>
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:router use '/' <anonymous>
+Sat, 06 Jan 2018 04:16:08 GMT express:router:layer new '/'
+Sat, 06 Jan 2018 04:16:08 GMT express:application set "port" to 3000
+Sat, 06 Jan 2018 04:16:08 GMT socket.io:server initializing namespace /
+Sat, 06 Jan 2018 04:16:08 GMT socket.io-parser encoding packet {"type":0,"nsp":"/"}
+Sat, 06 Jan 2018 04:16:08 GMT socket.io-parser encoded {"type":0,"nsp":"/"} as 0
+Sat, 06 Jan 2018 04:16:08 GMT socket.io:server creating engine.io instance with opts {"path":"/socket.io","initialPacket":["0"]}
+Sat, 06 Jan 2018 04:16:08 GMT socket.io:server attaching client serving req handler
+Sat, 06 Jan 2018 04:16:08 GMT socket.io:namespace removing initial packet
+Sat, 06 Jan 2018 04:16:08 GMT socket.io:namespace removing initial packet
+Sat, 06 Jan 2018 04:16:08 GMT node-rupiee:server Listening on port 3000
+Sat, 06 Jan 2018 04:17:50 GMT engine intercepting request for path "/socket.io/"
+Sat, 06 Jan 2018 04:17:50 GMT engine handling "GET" http request "/socket.io/?EIO=3&transport=polling&sessionId=cjc2u9hi60000x473vq0akz9d"
+Sat, 06 Jan 2018 04:17:50 GMT engine handshaking client "VWG3AuhUpJv2ntUZAAAA"
+Sat, 06 Jan 2018 04:17:50 GMT engine:socket sending packet "open" ({"sid":"VWG3AuhUpJv2ntUZAAAA","upgrades":["websocket"],"pingInterval":25000,"pingTimeout":60000})
+Sat, 06 Jan 2018 04:17:50 GMT engine:polling setting request
+Sat, 06 Jan 2018 04:17:50 GMT engine:socket flushing buffer to transport
+Sat, 06 Jan 2018 04:17:50 GMT engine:polling writing "97:0{"sid":"VWG3AuhUpJv2ntUZAAAA","upgrades":["websocket"],"pingInterval":25000,"pingTimeout":60000}"
+Sat, 06 Jan 2018 04:17:50 GMT engine:socket executing batch send callback
+Sat, 06 Jan 2018 04:17:50 GMT socket.io:server incoming connection with id VWG3AuhUpJv2ntUZAAAA
+Sat, 06 Jan 2018 04:17:50 GMT socket.io:client connecting to namespace /
+Sat, 06 Jan 2018 04:17:50 GMT socket.io:namespace adding socket to nsp /
+Sat, 06 Jan 2018 04:17:50 GMT express-session no SID sent, generating session
+Sat, 06 Jan 2018 04:17:50 GMT socket.io:socket socket connected - writing packet
+Sat, 06 Jan 2018 04:17:50 GMT socket.io:socket joining room VWG3AuhUpJv2ntUZAAAA
+Sat, 06 Jan 2018 04:17:50 GMT socket.io:client writing packet {"type":0,"nsp":"/"}
+Sat, 06 Jan 2018 04:17:50 GMT socket.io-parser encoding packet {"type":0,"nsp":"/"}
+Sat, 06 Jan 2018 04:17:50 GMT socket.io-parser encoded {"type":0,"nsp":"/"} as 0
+Sat, 06 Jan 2018 04:17:50 GMT engine:socket sending packet "message" (0)
+04:17:50 - [34mdebug[39m: Client connected: VWG3AuhUpJv2ntUZAAAA
+client connected
+Sat, 06 Jan 2018 04:17:50 GMT socket.io:socket joined room VWG3AuhUpJv2ntUZAAAA
+Sat, 06 Jan 2018 04:17:51 GMT engine upgrading existing transport
+Sat, 06 Jan 2018 04:17:51 GMT engine:socket might upgrade socket transport from "polling" to "websocket"
+Sat, 06 Jan 2018 04:17:51 GMT engine intercepting request for path "/socket.io/"
+Sat, 06 Jan 2018 04:17:51 GMT engine handling "GET" http request "/socket.io/?EIO=3&sid=VWG3AuhUpJv2ntUZAAAA&transport=polling&sessionId=cjc2u9hi60000x473vq0akz9d"
+Sat, 06 Jan 2018 04:17:51 GMT engine setting new request for existing client
+Sat, 06 Jan 2018 04:17:51 GMT engine:polling setting request
+Sat, 06 Jan 2018 04:17:51 GMT engine:socket flushing buffer to transport
+Sat, 06 Jan 2018 04:17:51 GMT engine:polling writing "2:40"
+Sat, 06 Jan 2018 04:17:51 GMT engine:socket executing batch send callback
+Sat, 06 Jan 2018 04:17:51 GMT engine:ws received "2probe"
+Sat, 06 Jan 2018 04:17:51 GMT engine:ws writing "3probe"
+Sat, 06 Jan 2018 04:17:51 GMT engine intercepting request for path "/socket.io/"
+Sat, 06 Jan 2018 04:17:51 GMT engine handling "POST" http request "/socket.io/?EIO=3&sid=VWG3AuhUpJv2ntUZAAAA&transport=polling&sessionId=cjc2u9hi60000x473vq0akz9d"
+Sat, 06 Jan 2018 04:17:51 GMT engine setting new request for existing client
+Sat, 06 Jan 2018 04:17:51 GMT engine:polling received " �42["initTransaction","{\"amount\":\"60.00\",\"billNumber\":\"794\",\"collectByDate\":\"11\/01\/2018 09:47 AM\",\"merchantId\":110812,\"merchantName\":\"NITIE\",\"merchantTranId\":\"POS1_83\",\"note\":\"Note\",\"payerVa\":\"upitest01@icici\",\"subMerchantId\":110812,\"subMerchantName\":\"NITIE\",\"terminalId\":5411}"]"
+Sat, 06 Jan 2018 04:17:51 GMT engine:socket packet
+Sat, 06 Jan 2018 04:17:51 GMT socket.io-parser decoded 2["initTransaction","{\"amount\":\"60.00\",\"billNumber\":\"794\",\"collectByDate\":\"11\/01\/2018 09:47 AM\",\"merchantId\":110812,\"merchantName\":\"NITIE\",\"merchantTranId\":\"POS1_83\",\"note\":\"Note\",\"payerVa\":\"upitest01@icici\",\"subMerchantId\":110812,\"subMerchantName\":\"NITIE\",\"terminalId\":5411}"] as {"type":2,"nsp":"/","data":["initTransaction","{\"amount\":\"60.00\",\"billNumber\":\"794\",\"collectByDate\":\"11/01/2018 09:47 AM\",\"merchantId\":110812,\"merchantName\":\"NITIE\",\"merchantTranId\":\"POS1_83\",\"note\":\"Note\",\"payerVa\":\"upitest01@icici\",\"subMerchantId\":110812,\"subMerchantName\":\"NITIE\",\"terminalId\":5411}"]}
+Sat, 06 Jan 2018 04:17:51 GMT socket.io:socket got packet {"type":2,"nsp":"/","data":["initTransaction","{\"amount\":\"60.00\",\"billNumber\":\"794\",\"collectByDate\":\"11/01/2018 09:47 AM\",\"merchantId\":110812,\"merchantName\":\"NITIE\",\"merchantTranId\":\"POS1_83\",\"note\":\"Note\",\"payerVa\":\"upitest01@icici\",\"subMerchantId\":110812,\"subMerchantName\":\"NITIE\",\"terminalId\":5411}"]}
+Sat, 06 Jan 2018 04:17:51 GMT socket.io:socket emitting event ["initTransaction","{\"amount\":\"60.00\",\"billNumber\":\"794\",\"collectByDate\":\"11/01/2018 09:47 AM\",\"merchantId\":110812,\"merchantName\":\"NITIE\",\"merchantTranId\":\"POS1_83\",\"note\":\"Note\",\"payerVa\":\"upitest01@icici\",\"subMerchantId\":110812,\"subMerchantName\":\"NITIE\",\"terminalId\":5411}"]
+Sat, 06 Jan 2018 04:17:51 GMT socket.io:socket dispatching an event ["initTransaction","{\"amount\":\"60.00\",\"billNumber\":\"794\",\"collectByDate\":\"11/01/2018 09:47 AM\",\"merchantId\":110812,\"merchantName\":\"NITIE\",\"merchantTranId\":\"POS1_83\",\"note\":\"Note\",\"payerVa\":\"upitest01@icici\",\"subMerchantId\":110812,\"subMerchantName\":\"NITIE\",\"terminalId\":5411}"]
+Sat, 06 Jan 2018 04:17:51 GMT engine intercepting request for path "/socket.io/"
+Sat, 06 Jan 2018 04:17:51 GMT engine handling "GET" http request "/socket.io/?EIO=3&sid=VWG3AuhUpJv2ntUZAAAA&transport=polling&sessionId=cjc2u9hi60000x473vq0akz9d"
+Sat, 06 Jan 2018 04:17:51 GMT engine setting new request for existing client
+Sat, 06 Jan 2018 04:17:51 GMT engine:polling setting request
+Collect Pay params = 
+{"merchantId":110812,"merchantName":"NITIE","subMerchantId":110812,"subMerchantName":"NITIE","terminalId":5411,"merchantTranId":"POS1_83","billNumber":"794","payerVa":"upitest01@icici","amount":"60.00","note":"Note","collectByDate":"11/01/2018 09:47 AM"}
+ ôáÁ\ MÏË¡É¯êÖlèÒ×Ü©w_-IÞ&P3¢¯w(´"ÓÃpÙ:.þ©û} Ë^}¿ÿxL)ãYëº­¹4Ë$ÀØM¥îB¨?Ú¶Ú-dã±Ï½âÿAªÍqïÌõ¨·SÛ4ý|ö´@È}sgF~Ò?¢3F­YÛ¼â÷ûP$y³°òíQ]Kõ]-W è¦j«%¸bÂAÊ59ÈXÃmey.EA!RÉúá­Õð»¹Bòx2¨RûËúf(©×sÍks Qü<¯dÆR([ïu¡agÿ5û±·Tçh<Ç-ä«Àu)p)¢ÿ-ïËILÐ³Þ>]«NW z¨ý`bUÀõæ>{<»f:¦P~Õc5p¶î!)(v IP4Þ­Ájo±N¬±Ô>:$ãÿÆlQ¥þÑnÌr$ø¡8X°Õá{Û,ÒW-î/kß¥¨],O»¡8£mðZ¿%ÈÈmjÇø$ì+;Lâ°¡ÏJÊÌ¹CÞ¾ÇVyli¼6þç¶XÌF ¼ßé ®gÇX5V4±¯G»~H+RÞ­î÷QvFvócYrV§v`
+Sat, 06 Jan 2018 04:17:51 GMT engine:socket writing a noop packet to polling for fast upgrade
+Sat, 06 Jan 2018 04:17:51 GMT engine:polling writing "1:6"
+Sat, 06 Jan 2018 04:17:51 GMT engine:ws received "5"
+Sat, 06 Jan 2018 04:17:51 GMT engine:socket got upgrade packet - upgrading
+Sat, 06 Jan 2018 04:17:51 GMT engine:polling closing
+Sat, 06 Jan 2018 04:17:51 GMT engine:polling transport discarded - closing right away
+err = 
+Error: getaddrinfo ENOTFOUND apigwuat.icicibank.com apigwuat.icicibank.com:8443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+Sat, 06 Jan 2018 04:18:16 GMT engine:ws received "2"
+Sat, 06 Jan 2018 04:18:16 GMT engine:socket packet
+Sat, 06 Jan 2018 04:18:16 GMT engine:socket got ping
+Sat, 06 Jan 2018 04:18:16 GMT engine:socket sending packet "pong" (undefined)
+Sat, 06 Jan 2018 04:18:16 GMT engine:socket flushing buffer to transport
+Sat, 06 Jan 2018 04:18:16 GMT engine:ws writing "3"
+Sat, 06 Jan 2018 04:18:33 GMT engine:ws received "41"
+Sat, 06 Jan 2018 04:18:33 GMT engine:socket packet
+Sat, 06 Jan 2018 04:18:33 GMT socket.io-parser decoded 1 as {"type":1,"nsp":"/"}
+Sat, 06 Jan 2018 04:18:33 GMT socket.io:socket got packet {"type":1,"nsp":"/"}
+Sat, 06 Jan 2018 04:18:33 GMT socket.io:socket got disconnect packet
+Sat, 06 Jan 2018 04:18:33 GMT socket.io:socket closing socket - reason client namespace disconnect
+04:18:33 - [34mdebug[39m: Client disconnected: VWG3AuhUpJv2ntUZAAAA
+04:18:33 - [34mdebug[39m: No of entries updated to disconnected: 1
+Sat, 06 Jan 2018 04:18:33 GMT socket.io:client client close with reason transport close
+Sat, 06 Jan 2018 04:18:56 GMT engine intercepting request for path "/socket.io/"
+Sat, 06 Jan 2018 04:18:56 GMT engine handling "GET" http request "/socket.io/?EIO=3&transport=polling&sessionId=cjc2uawda0001x4734zc0v7hs"
+Sat, 06 Jan 2018 04:18:56 GMT engine handshaking client "xceIVGRfI9IdkIREAAAB"
+Sat, 06 Jan 2018 04:18:56 GMT engine:socket sending packet "open" ({"sid":"xceIVGRfI9IdkIREAAAB","upgrades":["websocket"],"pingInterval":25000,"pingTimeout":60000})
+Sat, 06 Jan 2018 04:18:56 GMT engine:polling setting request
+Sat, 06 Jan 2018 04:18:56 GMT engine:socket flushing buffer to transport
+Sat, 06 Jan 2018 04:18:56 GMT engine:polling writing "97:0{"sid":"xceIVGRfI9IdkIREAAAB","upgrades":["websocket"],"pingInterval":25000,"pingTimeout":60000}"
+Sat, 06 Jan 2018 04:18:56 GMT engine:socket executing batch send callback
+Sat, 06 Jan 2018 04:18:56 GMT socket.io:server incoming connection with id xceIVGRfI9IdkIREAAAB
+Sat, 06 Jan 2018 04:18:56 GMT socket.io:client connecting to namespace /
+Sat, 06 Jan 2018 04:18:56 GMT socket.io:namespace adding socket to nsp /
+Sat, 06 Jan 2018 04:18:56 GMT express-session no SID sent, generating session
+Sat, 06 Jan 2018 04:18:56 GMT socket.io:socket socket connected - writing packet
+Sat, 06 Jan 2018 04:18:56 GMT socket.io:socket joining room xceIVGRfI9IdkIREAAAB
+Sat, 06 Jan 2018 04:18:56 GMT socket.io:client writing packet {"type":0,"nsp":"/"}
+Sat, 06 Jan 2018 04:18:56 GMT socket.io-parser encoding packet {"type":0,"nsp":"/"}
+Sat, 06 Jan 2018 04:18:56 GMT socket.io-parser encoded {"type":0,"nsp":"/"} as 0
+Sat, 06 Jan 2018 04:18:56 GMT engine:socket sending packet "message" (0)
+04:18:56 - [34mdebug[39m: Client connected: xceIVGRfI9IdkIREAAAB
+client connected
+Sat, 06 Jan 2018 04:18:56 GMT socket.io:socket joined room xceIVGRfI9IdkIREAAAB
+Sat, 06 Jan 2018 04:18:57 GMT engine intercepting request for path "/socket.io/"
+Sat, 06 Jan 2018 04:18:57 GMT engine handling "GET" http request "/socket.io/?EIO=3&sid=xceIVGRfI9IdkIREAAAB&transport=polling&sessionId=cjc2uawda0001x4734zc0v7hs"
+Sat, 06 Jan 2018 04:18:57 GMT engine setting new request for existing client
+Sat, 06 Jan 2018 04:18:57 GMT engine:polling setting request
+Sat, 06 Jan 2018 04:18:57 GMT engine:socket flushing buffer to transport
+Sat, 06 Jan 2018 04:18:57 GMT engine:polling writing "2:40"
+Sat, 06 Jan 2018 04:18:57 GMT engine:socket executing batch send callback
+Sat, 06 Jan 2018 04:18:57 GMT engine upgrading existing transport
+Sat, 06 Jan 2018 04:18:57 GMT engine:socket might upgrade socket transport from "polling" to "websocket"
+Sat, 06 Jan 2018 04:18:57 GMT engine:ws received "2probe"
+Sat, 06 Jan 2018 04:18:57 GMT engine:ws writing "3probe"
+Sat, 06 Jan 2018 04:18:57 GMT engine intercepting request for path "/socket.io/"
+Sat, 06 Jan 2018 04:18:57 GMT engine handling "GET" http request "/socket.io/?EIO=3&sid=xceIVGRfI9IdkIREAAAB&transport=polling&sessionId=cjc2uawda0001x4734zc0v7hs"
+Sat, 06 Jan 2018 04:18:57 GMT engine setting new request for existing client
+Sat, 06 Jan 2018 04:18:57 GMT engine:polling setting request
+Sat, 06 Jan 2018 04:18:57 GMT engine:socket writing a noop packet to polling for fast upgrade
+Sat, 06 Jan 2018 04:18:57 GMT engine:polling writing "1:6"
+Sat, 06 Jan 2018 04:18:57 GMT engine intercepting request for path "/socket.io/"
+Sat, 06 Jan 2018 04:18:57 GMT engine handling "POST" http request "/socket.io/?EIO=3&sid=xceIVGRfI9IdkIREAAAB&transport=polling&sessionId=cjc2uawda0001x4734zc0v7hs"
+Sat, 06 Jan 2018 04:18:57 GMT engine setting new request for existing client
+Sat, 06 Jan 2018 04:18:57 GMT engine:polling received " 	�42["initTransaction","{\"amount\":\"60.00\",\"billNumber\":\"1255\",\"collectByDate\":\"11\/01\/2018 09:48 AM\",\"merchantId\":110812,\"merchantName\":\"NITIE\",\"merchantTranId\":\"POS1_84\",\"note\":\"Note\",\"payerVa\":\"upitest01@icici\",\"subMerchantId\":110812,\"subMerchantName\":\"NITIE\",\"terminalId\":5411}"]"
+Sat, 06 Jan 2018 04:18:57 GMT engine:socket packet
+Sat, 06 Jan 2018 04:18:57 GMT socket.io-parser decoded 2["initTransaction","{\"amount\":\"60.00\",\"billNumber\":\"1255\",\"collectByDate\":\"11\/01\/2018 09:48 AM\",\"merchantId\":110812,\"merchantName\":\"NITIE\",\"merchantTranId\":\"POS1_84\",\"note\":\"Note\",\"payerVa\":\"upitest01@icici\",\"subMerchantId\":110812,\"subMerchantName\":\"NITIE\",\"terminalId\":5411}"] as {"type":2,"nsp":"/","data":["initTransaction","{\"amount\":\"60.00\",\"billNumber\":\"1255\",\"collectByDate\":\"11/01/2018 09:48 AM\",\"merchantId\":110812,\"merchantName\":\"NITIE\",\"merchantTranId\":\"POS1_84\",\"note\":\"Note\",\"payerVa\":\"upitest01@icici\",\"subMerchantId\":110812,\"subMerchantName\":\"NITIE\",\"terminalId\":5411}"]}
+Sat, 06 Jan 2018 04:18:57 GMT socket.io:socket got packet {"type":2,"nsp":"/","data":["initTransaction","{\"amount\":\"60.00\",\"billNumber\":\"1255\",\"collectByDate\":\"11/01/2018 09:48 AM\",\"merchantId\":110812,\"merchantName\":\"NITIE\",\"merchantTranId\":\"POS1_84\",\"note\":\"Note\",\"payerVa\":\"upitest01@icici\",\"subMerchantId\":110812,\"subMerchantName\":\"NITIE\",\"terminalId\":5411}"]}
+Sat, 06 Jan 2018 04:18:57 GMT socket.io:socket emitting event ["initTransaction","{\"amount\":\"60.00\",\"billNumber\":\"1255\",\"collectByDate\":\"11/01/2018 09:48 AM\",\"merchantId\":110812,\"merchantName\":\"NITIE\",\"merchantTranId\":\"POS1_84\",\"note\":\"Note\",\"payerVa\":\"upitest01@icici\",\"subMerchantId\":110812,\"subMerchantName\":\"NITIE\",\"terminalId\":5411}"]
+Sat, 06 Jan 2018 04:18:57 GMT socket.io:socket dispatching an event ["initTransaction","{\"amount\":\"60.00\",\"billNumber\":\"1255\",\"collectByDate\":\"11/01/2018 09:48 AM\",\"merchantId\":110812,\"merchantName\":\"NITIE\",\"merchantTranId\":\"POS1_84\",\"note\":\"Note\",\"payerVa\":\"upitest01@icici\",\"subMerchantId\":110812,\"subMerchantName\":\"NITIE\",\"terminalId\":5411}"]
+Collect Pay params = 
+{"merchantId":110812,"merchantName":"NITIE","subMerchantId":110812,"subMerchantName":"NITIE","terminalId":5411,"merchantTranId":"POS1_84","billNumber":"1255","payerVa":"upitest01@icici","amount":"60.00","note":"Note","collectByDate":"11/01/2018 09:48 AM"}
+>Bõu
+4~á1&ÀçI~bÁ³pt¤)7ê¹&ªÅ7öíR
+"K¤Ù»Ýzyüädõë)n½qiá½L±ÖOÚElq«`([IÐ( JMPªç)j¨#MÑ,04XAÙÙ#¿_æbçXïÒeíåiííÈNJÜäèR6sº¬ÑñéZW	§½"T©BlÉÆ¦YQV65lÊjg2Î `ØèéDô4£G
+ÎYP¤j|ÔübTáÅÃiþüS]Úêm·æ´j	=½-´~cdÕó°w¯Ï¸Ó°ÿ+ÐIuýbypßA³bà´²Ú0Ô
+:
+Á¡u=úýHÁ^ÍìÞ9gXÄÄgÖ¬ßxCÉ/ýã/l÷=}k1g2m=Cz8¸èUåA¦ï¡(`O4áwhÒ¦ÈÁÿvh®i¼pK8Y ª·yÚÿÈër b¯31E#§ð~íTò}éú8º"³D(3ÿr*	1ªõmùê±XËô§Õ>1Æbq ¿
+*I
+MúÁ¨8R¡´¸{Fÿ6Zd×ÓSUkºÚý}qñªB¬ÀïÈý¿ J($
+Sat, 06 Jan 2018 04:18:57 GMT engine:ws received "5"
+Sat, 06 Jan 2018 04:18:57 GMT engine:socket got upgrade packet - upgrading
+Sat, 06 Jan 2018 04:18:57 GMT engine:polling closing
+Sat, 06 Jan 2018 04:18:57 GMT engine:polling transport discarded - closing right away
+success = 
+"\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005�ǶkP\u0000\u0000й�|��h\t�7�(�[pd���\\������&�湧X?��[\u0013�`�X���ai��+�|\u0013\u0015O���F\u001f��*9��A\r�U�ȿ�d_g���Do\u0014�C�\u001c\u001ba���'��VV_��\u0015i���\u0002�T O�r\u000e�����6��ܰ����/o��@偣�ka��Ur,T�\f\b,���w�kO,��<J;\u000bf��\u001a�1\u0016|\u000e\"���v�́w�L\n�6��G��`�g:�\"�0��U\u0019؃��B�7\u0019��I=��[j>�V��i�\tҪ�P�B�V��\u0019�7�@���q��Vp\u0012lW�uE\u0011��e\u001d{\\�\u000b66dk�&1w5뤆�-N\u0003��H�G|N\u0003$Z\u0019\u0002�T�\u00014�\u0015\t�K��Ǖ�w\u0004\u0014�<�{��>e)M�v�\u001a~�׊��>\u000b��]�\u0006d]e��l�Q�Oz�v\u0010\u000fs\u0010v������~��(�^���t\u001d���$) ]�be!����$/x>d�\r��N\u0004�Y�/M�Ԧ\t8��d��\u0015'X��\u0000�\u001fC\u0014�\u0012�K��P�u\f�\t����7A~\u001d\u001a����s�Xa7\u001f\u0014�؏��<'\u000eo�\u0015�Q1�\u0007KO6\u001e\r�\u000e\u0005\u0014yq�neG��=Fy�G\"\u001e����E��9��r-���\u0007�՞Kۺv�\u0019��C���B��%yqc�d�\u001d��\u000fp\u0006��\u0002\u0000\u0000"
+Encrypted =
+�       ��kP  9�|��h	�7�(�[pd���\������&�gX?��[�`�X���ai��+�|O���F��*9��A�U�?�d_g���Do�C�a���'��VV_��i����T O�r�����6��0����/o��@c�ka��Ur,T�,���w�kO,��<J;f���1|"���v�w�L
+�6��G��`�g:�"�0��U��B�7��I=��[j>�V��i�	��P�B�V���7�@���q��VplW�uE��e{\�66dk�&1w5�-N��H�G|N$Z�T�4�	�K����w�<�{��>e)M�v�~����>��]�d]e��l�Q�Oz�vsv������~��(�^���t���$) ]�be!����$/x>d���N�Y�/M�&	8��d��'X�� �C��K��P�u�	����7A~����s�Xa7���<'o��Q1�KO6�yq�neG��=Fy�G"����E��9��r-����^K�v���C���B��%yqc�d���p��  
+Private Key = 
+-----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----
+
+/home/mukundan/node_rupiee/node_modules/node-forge/lib/rsa.js:539
+    throw error;
+    ^
+
+Error: Encrypted message length is invalid.
+    at Object.pki.rsa.decrypt (/home/mukundan/node_rupiee/node_modules/node-forge/lib/rsa.js:536:17)
+    at Object.key.decrypt (/home/mukundan/node_rupiee/node_modules/node-forge/lib/rsa.js:1132:21)
+    at Object.exports.decrypt (/home/mukundan/node_rupiee/utils/cryptoUtils.js:25:43)
+    at notifyCollectPayResponse (/home/mukundan/node_rupiee/lib/gateway/transaction.js:105:49)
+    at Request._callback (/home/mukundan/node_rupiee/lib/gateway/transaction.js:209:4)
+    at Request.self.callback (/home/mukundan/node_rupiee/node_modules/request/request.js:188:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/home/mukundan/node_rupiee/node_modules/request/request.js:1171:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/home/mukundan/node_rupiee/node_modules/request/request.js:1091:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)

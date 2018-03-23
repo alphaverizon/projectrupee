@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/public/javascripts/login.js"></script>
+	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+	<script src="https://use.fontawesome.com/7bac63fa30.js"></script>
+	<link rel="stylesheet" type="text/css" href="/public/css/login.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row colored">
+			<div id="contentdiv" class="contcustom">
+				<span class="fa fa-superpowers bigicon"></span>
+				<h2>Rupiee</h2>
+				<div>
+					<input id="username" type="text" placeholder="username" onkeypress="checkValues();">
+					<input id="vpa" type="text" placeholder="vpa" onkeypress="checkValues();">
+					<input id="password" type="password" placeholder="password" onkeypress="checkValues();">
+					<button id="loginButton" class="btn btn-default wide hidden"><span class="fa fa-sign-in med"></span></button>
+					<span id="lock" class="fa fa-lock medhidden redborder"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

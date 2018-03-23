@@ -1,0 +1,71 @@
+var express = require('express');
+var path = require('path');
+//var favicon = require('serve-favicon');
+var logger = require('morgan');
+var cookieParser = require('cookie-parser');
+var bodyParser = require('body-parser');
+const session = require('express-session')({secret: 'Password@123', resave: false, saveUninitialized: true, maxAge: Date.now() + (3600)});
+
+const routes = require('./routes/index');
+const registration = require('./lib/registration/regnRouter.js');
+const transaction = require('./lib/gateway/txRouter.js');
+const contract = require('./lib/contract/contractRouter.js');
+
+var routerModels = require('./models/router_models.js');
+
+var app = express();
+
+// view engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
+
+// uncomment after placing your favicon in /public
+//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(logger('dev'));
+app.use(bodyParser.json());
+app.use('/gateway', bodyParser.text());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(session);
+
+app.use('/public', express.static(path.join(__dirname, 'public')));
+app.use('/bower_components',  express.static(path.join(__dirname, '/bower_components')));
+app.use(express.static(__dirname + '/node_modules'));
+
+var promisify = function(req, res, next) {
+	res.promise = function(promise) {
+		promise.then(function(result) {
+			res.send(new routerModels.WebResponseWrapper('OK', result, 'SUCCESS'));		
+		})
+		.catch(function(err) {
+			res.send(new routerModels.WebResponseWrapper('ERR', null, err));
+		});
+	}
+	next();
+}
+app.use(promisify);
+
+app.use('/rupiee', routes);
+app.use('/registration', registration);
+app.use('/gateway', transaction);
+app.use('/contract', contract);
+
+// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+	var err = new Error('Not Found');
+	err.status = 404;
+	next(err);
+});
+
+// error handler
+app.use(function(err, req, res, next) {
+  // set locals, only providing error in development
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
+
+  // render the error page
+  res.status(err.status || 500);
+  res.render('error.jade');
+});
+
+module.exports = app;

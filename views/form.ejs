@@ -1,0 +1,174 @@
+<html>
+<head>
+  <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="/bower_components/moment/min/moment.min.js"></script>
+  <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <script type="text/javascript" src="/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+  <link rel="stylesheet" href="/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.js"> </script>
+  <script type="text/javascript" src="/public/javascripts/form.js"></script>
+  <link rel="stylesheet" href="/public/css/form.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">RUPIEE</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" id="user" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> <%= user %><span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" id="vpa"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> <%= vpa %></a></li>
+              <li><a href="/contract/logout"><span class="glyphicon glyphicon-off" aria-hidden="true"></span>Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- NavbarEnd -->
+
+  <div class="container" align="center">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <form action="#" method="get">
+          <div class="input-group">
+            <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
+            <input class="form-control" id="system-search" name="q" placeholder="Search for" required>
+            <span class="input-group-btn">
+              <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <% data.forEach(function(subContractor) { %>
+          <h4> Subcontractor: <%=subContractor.subContractorName %> </h4>
+           <table class="table table-fixed table-striped table-list-search">
+            <thead>
+              <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Entry Time</th>
+                <th>Exit Time</th>
+                <th>NC 1</th>
+                <th>NC 2</th>
+                <th>NC 3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <%var i = 1;
+              var payment = subContractor.payment;%>
+              <%payment.forEach(function(entry) { %>
+                <tr id=<%=entry._id%>>
+                  <form>
+                    <td><%=i%></td>
+                    <td><%=entry.name%></td>
+                    <td><%=entry.entryTime%></td>
+                    <td><%=entry.exitTime%></td>
+                    <td>
+                      <label class="radio-inline">
+                        <input type="radio" name="nonCompliance1" value="yes" 
+                        <%if(entry.nonCompliance1) {%>
+                          disabled = "true"
+                          <%if(entry.nonCompliance1 == "yes") {%>
+                            checked=""<%}%>
+                        <%}%>
+                        >Yes
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="nonCompliance1" value="no"
+                        <%if(entry.nonCompliance1) {%>
+                          disabled = "true"
+                          <%if(entry.nonCompliance1 == "no") {%>
+                            checked=""<%}%>
+                        <%} else {%>
+                          checked=""
+                        <%}%>
+                        >No
+                      </label>
+                    </td>
+                    <td>
+                      <label class="radio-inline">
+                        <input type="radio" name="nonCompliance2" value="yes" 
+                        <%if(entry.nonCompliance2) {%>
+                          disabled = "true"
+                          <%if(entry.nonCompliance2 == "yes") {%>
+                            checked=""<%}%>
+                        <%}%>
+                        >Yes
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="nonCompliance2" value="no"
+                        <%if(entry.nonCompliance2) {%>
+                          disabled = "true"
+                          <%if(entry.nonCompliance2 == "no") {%>
+                            checked=""<%}%>
+                        <%} else {%>
+                          checked=""
+                        <%}%>
+                        >No
+                      </label>
+                    </td>
+                    <td>
+                      <label class="radio-inline">
+                        <input type="radio" name="nonCompliance3" value="yes" 
+                        <%if(entry.nonCompliance3) {%>
+                          disabled = "true"
+                          <%if(entry.nonCompliance3 == "yes") {%>
+                            checked=""<%}%>
+                        <%}%>
+                        >Yes
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="nonCompliance3" value="no"
+                        <%if(entry.nonCompliance3) {%>
+                          disabled = "true"
+                          <%if(entry.nonCompliance3 == "no") {%>
+                            checked=""<%}%>
+                        <%} else {%>
+                          checked=""
+                        <%}%>
+                        >No
+                      </label>
+                    </td>
+                  </form>
+                </tr>
+              <%i++%>
+              <% }); %>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                  <button type="button" class="btn btn-default">Submit</button>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>  
+        <% }); %> 
+    </div>
+  </div>
+</div>
+</body>
+</html>
